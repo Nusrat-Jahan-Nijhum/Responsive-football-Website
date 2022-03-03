@@ -12,7 +12,7 @@ body{
 /* nav bar */
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     align-items: center;
     background-color:#2D25A0;
     /* height: 25px;
@@ -23,22 +23,57 @@ nav{
 nav a{
     color: white;
     text-decoration: none;
-    padding: 10px ;
+    margin: 10px;
+}
+
+.nav-options{
+    margin-top: 42px;
 }
 /* login button */
 .login-button{
+    margin-top: 42px;
+    margin-left: 573px;
     background-color:  #E02C6D;
+    padding: 3px 4px;
+    font-weight: 500;
+    font-size: 16px;
 }
-
+/* hover on banner image */
+.top-image img:hover{
+    transform: scale(1.1);
+    transition: transform 1s ease-out;
+}
 /* First container  */
 .first-container{
+    
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:space-evenly;
+    align-items:center;
     background-color: #2D25A0;
+}
+/* banner title  */
+.first-container h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    color:  #FFFFFF;
 }
 /* banner image */
 .top-image{
+    margin-top: 100px;
+    margin-bottom: 86px;
     width: 556.01px;
     height: 438px;
+}
+
+/* watch live button */
+.watch-button
+{
+    width: 168px;
+    height: 44px;
+    background-color: #E02C6D;
+    border: 0;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
 }
