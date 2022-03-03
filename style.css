@@ -77,3 +77,37 @@ nav a{
     font-size: 16px;
     color: #FFFFFF;
 }
+/* media query for first section */
+@media only screen and (max-width:688px){
+   .first-container{
+       
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: left;
+       align-items: flex-start;
+       grid-template-columns: repeat(1,1fr);
+   } 
+   .banner h1{
+    font-size:36px ;
+    margin-left: 20px;
+   }
+   .banner button{
+       width: 130px;
+       height: 30px;
+       margin-left: 20px;
+   }
+   .first-container img{
+       height: 300px;
+       width: 350px;
+       margin-left: 20px;
+   }
+   .nav-options{
+   display: none;
+   }
+   .login-button{
+    margin-top: 10px;
+    margin-left: 270px;
+    background-color:  #E02C6D;
+    font-size: 9px;
+   }
+}
